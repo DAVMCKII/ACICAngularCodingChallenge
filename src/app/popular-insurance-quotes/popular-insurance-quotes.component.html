@@ -1,0 +1,4 @@
+<div *ngFor="let item of popularLines$ | async">
+    <span>{{ item.line.name }}</span>
+    <span>{{ item.count }}</span>
+</div>
